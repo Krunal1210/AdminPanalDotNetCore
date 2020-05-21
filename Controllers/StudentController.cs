@@ -33,7 +33,7 @@ namespace DNC6.Controllers
                 _dbContext.Students.Add(model);
                 _dbContext.SaveChanges();
                 TempData["StatusMessage"] = "Your profile has been updated";
-                //return RedirectToAction("Index");
+                //return RedirectToAction("Index"); K
             }
             return View();
         }
